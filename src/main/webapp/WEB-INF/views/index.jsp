@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: user
-  Date: 2023-09-05
-  Time: 오전 10:51
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
+<%--  link 치고 tab누르면 자동완성  --%>
+    <link rel="stylesheet" href="/resources/css/main.css">
 </head>
 <body>
-
+    <h2>Member Project</h2>
+    <a href="/save">회원등록</a> <br>
+    <a href="/members">회원목록</a> <br>
 </body>
 </html>
