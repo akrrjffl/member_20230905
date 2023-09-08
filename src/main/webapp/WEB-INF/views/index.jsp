@@ -2,12 +2,19 @@
 <html>
 <head>
     <title>Title</title>
-<%--  link 치고 tab누르면 자동완성  --%>
     <link rel="stylesheet" href="/resources/css/main.css">
 </head>
 <body>
-    <h2>Member Project</h2>
-    <a href="/save">회원등록</a> <br>
-    <a href="/members">회원목록</a> <br>
+<%@include file="component/header.jsp" %>
+<%@include file="component/nav.jsp" %>
+
+<h2>Member Project</h2>
+
+로그인이메일: ${sessionScope.loginEmail} <br>
+model에 담은 이메일: ${email} <br>
+
+<a href="/ajax">ajax 알아보기</a>
+
+<%@include file="component/footer.jsp" %>
 </body>
 </html>
